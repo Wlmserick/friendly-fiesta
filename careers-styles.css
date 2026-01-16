@@ -1,0 +1,457 @@
+/**
+ * Careers page specific styles
+ * Common styles are in common.css
+ */
+
+/* Page-specific styles */
+
+.careers-main {
+    position: relative;
+    background-color: #F4F4F4;
+}
+
+/* Hero Section */
+.hero-section {
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 140px 144px 120px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+/* Hero Animation Background */
+.hero-section::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(50%, -50%);
+    width: 1100px;
+    height: 1200px;
+    background-image: url('assets/animation.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 0;
+    opacity: 1;
+    filter: contrast(2) brightness(1.3);
+    pointer-events: none;
+}
+
+.hero-container {
+    width: 1212px;
+    height: 452px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    position: relative;
+    z-index: 1;
+}
+
+.hero-title {
+    width: 1212px;
+    height: 37px;
+    font-family: 'Instrument Sans', sans-serif;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #333;
+    margin: 0;
+}
+
+.hero-highlight {
+    font-family: 'Instrument Sans', sans-serif;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #5D6C63;
+}
+
+.hero-description {
+    font-family: 'Instrument Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #666;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.physical-ai {
+    font-weight: 600;
+    color: #5D6C63;
+}
+
+.hero-image {
+    width: 789.183837890625px;
+    height: 276px;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* VentureBeat Section */
+.venturebeat-section {
+    width: 100%;
+    background-color: #5D6C63;
+    padding: 40px 0;
+}
+
+.venturebeat-content {
+    width: 1218.509765625px;
+    height: 31px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.venturebeat-image {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Work & Wellbeing Section */
+.work-wellbeing-section {
+    width: 1500px;
+    height: 446.8499755859375px;
+    margin: 0 auto;
+    padding: 100px 202px;
+    background-color: #F4F4F4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    opacity: 1;
+}
+
+.work-wellbeing-header {
+    width: 1096px;
+    height: 86px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    opacity: 1;
+}
+
+.section-title {
+    width: 359px;
+    height: 30px;
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #434343;
+    margin: 0;
+    opacity: 1;
+}
+
+.section-description {
+    width: 600px;
+    height: 31px;
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #434343;
+    margin: 0;
+    opacity: 1;
+}
+
+.benefits-grid {
+    width: 1096px;
+    height: 110.84996032714844px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    opacity: 1;
+}
+
+.benefit-item {
+    width: 187px;
+    height: 110.84996032714844px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 34px;
+    opacity: 1;
+}
+
+.benefit-icon {
+    width: 58.711490631103516px;
+    height: 45.84995651245117px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+}
+
+.benefit-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.benefit-item h3 {
+    width: 187px;
+    height: 31px;
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #434343;
+    margin: 0;
+    opacity: 1;
+}
+
+/* Open Positions Section */
+.open-positions-section {
+    width: 1213px;
+    height: 1254px;
+    margin: 0 auto;
+    padding: 100px 0;
+    background-color: #F4F4F4;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    opacity: 1;
+}
+
+.positions-header {
+    width: 1213px;
+    height: 67px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    opacity: 1;
+}
+
+.positions-header h2 {
+    width: 521px;
+    height: 40px;
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #434343;
+    margin: 0;
+    opacity: 1;
+}
+
+.positions-description {
+    width: 600px;
+    height: 67px;
+}
+
+.positions-description p {
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #434343;
+    margin: 0;
+    opacity: 1;
+}
+
+.filters-container {
+    width: 976.2562866210938px;
+    height: 82px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    opacity: 1;
+}
+
+.filters-label {
+    width: 600px;
+    height: 16px;
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #545454;
+    margin: 0;
+    opacity: 1;
+}
+
+.filters-row {
+    display: flex;
+    gap: 25px;
+}
+
+.filter-select {
+    width: 228.81407165527344px;
+    min-height: 41px;
+    padding: 10px 40px 10px 20px;
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #434343;
+    background-color: transparent;
+    background-image: url("data:image/svg+xml,%3Csvg width='12' height='8' viewBox='0 0 12 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L6 6L11 1' stroke='%23434343' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 20px center;
+    border: 1px solid rgba(93, 108, 99, 0.25);
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    opacity: 1;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    box-sizing: border-box;
+}
+
+.filter-select:hover {
+    border-color: #5D6C63;
+}
+
+.filter-select:focus {
+    outline: none;
+    border-color: #5D6C63;
+}
+
+.positions-list {
+    width: 1213px;
+    height: 1005px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    opacity: 1;
+}
+
+.position-card {
+    width: 1213px;
+    height: 137px;
+    background-color: #F4F4F4;
+    padding: 20px 18px;
+    border-radius: 15px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    transition: all 0.3s ease;
+    opacity: 1;
+    box-sizing: border-box;
+}
+
+.position-card:hover {
+    background-color: rgba(93, 108, 99, 0.06);
+}
+
+.position-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.position-card h3 {
+    width: 450px;
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #5D6C63;
+    margin: 0;
+    opacity: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.position-meta {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.meta-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #6E6E6E;
+    opacity: 1;
+}
+
+.meta-item img {
+    width: 12.699951171875px;
+    height: 12.699951171875px;
+    opacity: 1;
+}
+
+.position-card p {
+    width: 1177px;
+    height: 31px;
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #434343;
+    margin: 0;
+    opacity: 1;
+}
+
+.view-more {
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #5D6C63;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    opacity: 0;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    white-space: nowrap;
+}
+
+.view-more svg {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+}
+
+.position-card:hover .view-more {
+    opacity: 1;
+}
+
+.view-more:hover {
+    color: #4a5550;
+}

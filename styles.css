@@ -1,0 +1,1005 @@
+/**
+ * Homepage specific styles
+ * Common styles are in common.css
+ */
+
+/* Page-specific styles start here */
+
+/* Hero Section */
+.hero-section {
+    width: 1500px;
+    height: 624.0018920898438px;
+    margin: 0 auto;
+    padding: 128px 144px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 87px;
+    background-color: #F4F4F4;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-animation {
+    position: absolute;
+    top: 50%;
+    width: 75%;
+    height: 120%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+    opacity: 1;
+    filter: contrast(1.5) brightness(1.1);
+    pointer-events: none;
+}
+
+.hero-animation-left {
+    left: 0;
+    transform: translate(-50%, -50%);
+}
+
+.hero-animation-right {
+    right: 0;
+    transform: translate(50%, -50%);
+}
+
+.hero-animation-svg {
+    width: 100%;
+    height: auto;
+    max-width: none;
+    object-fit: contain;
+}
+
+.hero-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    position: relative;
+    z-index: 1;
+}
+
+.hero-title {
+    width: 766px;
+    height: 141px;
+    font-family: 'Instrument Sans', sans-serif;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #434343;
+}
+
+.hero-title-highlight {
+    font-family: 'Instrument Sans', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 52px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    background: #5D6C63;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    display: inline;
+}
+
+.hero-subtitle {
+    width: 620px;
+    height: 54px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 150%;
+    color: #666;
+    opacity: 1;
+}
+
+.hero-features {
+    width: 620px;
+    height: 88.00189971923828px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto 0;
+    opacity: 1;
+}
+
+.feature-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.feature-icon {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.feature-item p {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+}
+
+/* Reality of Edge Section */
+.reality-section {
+    width: 1500px;
+    height: 496px;
+    margin: 0 auto;
+    padding: 100px 144px;
+    background: #5D6C63;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.reality-section .section-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: #fff;
+}
+
+.section-title {
+    font-size: 42px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 120%;
+}
+
+.section-description {
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.challenges-title {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin: 10px 0 20px 0;
+}
+
+.challenges-diagram {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.challenges-image {
+    max-width: 100%;
+    height: auto;
+    opacity: 1;
+}
+
+
+
+/* OpenInfer Capability Section */
+.capability-section {
+    width: 1500px;
+    min-height: 957px;
+    margin: 0 auto;
+    padding: 100px 144px;
+    background-color: #F4F4F4;
+    display: flex;
+    flex-direction: column;
+    gap: 87px;
+}
+
+.capability-section .section-content {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.capability-section .section-title {
+    color: #5D6C63;
+}
+
+.capability-section .section-description {
+    color: #5D6C63;
+}
+
+.capability-diagram {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.solution-diagram-img {
+    width: 1120.625px;
+    height: 636px;
+    opacity: 1;
+    object-fit: contain;
+}
+
+/* Topology-Aware Edge Infrastructure Section */
+.topology-section {
+    width: 1500px;
+    min-height: 1207.6319580078125px;
+    margin: 0 auto;
+    padding: 100px 144px;
+    background-color: #F4F4F4;
+    display: flex;
+    flex-direction: column;
+    gap: 87px;
+    position: relative;
+    border-top: 0.5px solid #5D6C63;
+}
+
+.topology-section .section-content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.topology-section .section-title {
+    color: #5D6C63;
+}
+
+.topology-section .section-description {
+    font-family: 'Instrument Sans', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #5D6C63;
+}
+
+.section-subdescription {
+    font-family: 'Instrument Sans', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    color: #5D6C63;
+}
+
+.topology-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 77px;
+    margin-top: 40px;
+    align-items: center;
+    position: relative;
+}
+
+.topology-card {
+    width: 1006.2470703125px;
+    height: 219.2105712890625px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    opacity: 1;
+    background: #F4F4F4;
+    position: sticky;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    transform-origin: top center;
+}
+
+.topology-card:nth-child(1) {
+    top: 100px;
+    z-index: 1;
+}
+
+.topology-card:nth-child(2) {
+    top: 100px;
+    z-index: 2;
+}
+
+.topology-card:nth-child(3) {
+    top: 100px;
+    z-index: 3;
+}
+
+.topology-image {
+    width: 337.2470397949219px;
+    height: 219.2105712890625px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topology-image img {
+    width: 337.2470397949219px;
+    height: 219.2105712890625px;
+    opacity: 1;
+    border-bottom-right-radius: 15px;
+    object-fit: cover;
+}
+
+.topology-card p {
+    flex: 1;
+    font-size: 14px;
+    line-height: 160%;
+    color: #666;
+    text-align: left;
+}
+
+/* OpenInfer Whitepaper Card */
+.whitepaper-section {
+    width: 1500px;
+    margin: 0 auto;
+    padding: 0 143px;
+    display: flex;
+    justify-content: center;
+}
+
+.whitepaper-card {
+    width: 1214px;
+    height: 381px;
+    background: linear-gradient(90deg, #536259 0%, #5D6C63 100%);
+    border-radius: 25px;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 21px;
+    color: #fff;
+    opacity: 1;
+}
+
+.whitepaper-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.whitepaper-content h2 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.whitepaper-content p {
+    font-size: 16px;
+    line-height: 150%;
+    opacity: 0.9;
+}
+
+.whitepaper-link {
+    display: inline-flex;
+    align-items: center;
+    width: 143.6083984375px;
+    height: 34.515625px;
+    padding: 0;
+    margin-top: 12px;
+    border: 1px solid #FFFFFF;
+    border-radius: 125px;
+    background: #FFFFFF;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: none;
+    overflow: hidden;
+}
+
+.whitepaper-link .whitepaper-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 123px;
+    height: 33.48508834838867px;
+    border-radius: 125px;
+    background: #59685f;
+    color: #F4F4F4;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 0 16px;
+}
+
+.whitepaper-link .whitepaper-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(143.6083984375px - 123px);
+    height: 34.515625px;
+    background: #FFFFFF;
+    flex-shrink: 0;
+    transition: transform 0.3s ease;
+}
+
+.whitepaper-link .whitepaper-arrow svg {
+    width: 12px;
+    height: 12px;
+}
+
+.whitepaper-link:hover .whitepaper-arrow {
+    transform: translateX(2px);
+}
+
+.whitepaper-image {
+    width: 347px;
+    height: 181px;
+    background: transparent;
+    border-radius: 12px;
+    overflow: hidden;
+    opacity: 1;
+}
+
+.whitepaper-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Market Segment Offering Section */
+.market-section {
+    width: 1500px;
+    height: 629px;
+    margin: 0 auto;
+    padding: 100px 144px;
+    background-color: #F4F4F4;
+    display: flex;
+    flex-direction: column;
+    gap: 87px;
+}
+
+.market-section .section-content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.market-section .section-title {
+    color: #5D6C63;
+}
+
+.market-grid {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.market-card {
+    width: 367px;
+    min-height: 349px;
+    border: 1px solid #5D6C6326;
+    border-radius: 15px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    opacity: 1;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 18.8px 0px #00000008;
+}
+
+.market-card h3 {
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #434343;
+}
+
+.market-card p {
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #434343;
+}
+
+.market-tags {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 12px;
+    text-align: center;
+}
+
+.market-tags strong {
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #434343;
+}
+
+.market-tags span {
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 120%;
+    color: #434343;
+}
+
+
+/* OpenInfer Partners Section */
+.partners-section {
+    width: 1500px;
+    height: 126px;
+    margin: 0 auto;
+    padding: 43px 143px;
+    background: linear-gradient(90deg, #536259 0%, #5D6C63 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 21px;
+    opacity: 1;
+}
+
+.partners-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    color: #fff;
+    height: 100%;
+}
+
+.partners-content h2 {
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 55px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 140%;
+    letter-spacing: 0%;
+}
+
+.partners-logos {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.partners-image {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Inside OpenInfer Infrastructure Section */
+.infrastructure-section {
+    width: 1500px;
+    height: 859.759765625px;
+    margin: 0 auto;
+    padding: 100px 144px;
+    background-color: #F4F4F4;
+    display: flex;
+    flex-direction: column;
+    gap: 87px;
+}
+
+.infrastructure-section .section-content {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.infrastructure-section .section-title {
+    width: 684px;
+    height: 30px;
+    margin: 0 auto;
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #5D6C63;
+    opacity: 1;
+}
+
+.infrastructure-section .section-description {
+    width: 828px;
+    height: 47px;
+    margin: 0 auto;
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #5D6C63;
+    opacity: 1;
+}
+
+.blog-grid {
+    display: grid;
+    grid-template-columns: 454px 726px;
+    grid-template-rows: auto auto;
+    gap: 32px;
+    margin-top: 40px;
+}
+
+.partnership-card {
+    grid-column: 1;
+    grid-row: 1 / 3;
+}
+
+.technical-card {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.casestudy-card {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+
+.partnership-card {
+    width: 454px;
+    height: 100%;
+    min-height: 527px;
+    padding: 1px;
+    background: #FFFFFF;
+    border: 1px solid #5D6C6326;
+    border-radius: 25px;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.partnership-image {
+    width: 452px;
+    height: 219px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    opacity: 1;
+    object-fit: cover;
+}
+
+.partnership-card .blog-content {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.partnership-date {
+    width: 127px;
+    height: 12px;
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #5D6C63;
+    opacity: 1;
+}
+
+.partnership-title {
+    width: 404px;
+    height: 54px;
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #434343;
+    opacity: 1;
+    margin-bottom: 16px;
+}
+
+.partnership-description {
+    width: 404px;
+    height: 85px;
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #434343;
+    opacity: 1;
+    margin-bottom: 16px;
+}
+
+.partnership-button {
+    display: inline-flex;
+    align-items: center;
+    width: 166.515625px;
+    height: 34.515625px;
+    padding: 0;
+    border: 1px solid #5D6C63;
+    border-radius: 125px;
+    background: #5D6C63;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    opacity: 1;
+    overflow: hidden;
+}
+
+.partnership-button .button-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 146.96969604492188px;
+    height: 33.48508834838867px;
+    border-radius: 125px;
+    background: #FFFFFF;
+    color: #5D6C63;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 0 16px;
+}
+
+.partnership-button .button-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(166.515625px - 146.96969604492188px);
+    height: 34.515625px;
+    background: #5D6C63;
+    flex-shrink: 0;
+    transition: transform 0.3s ease;
+}
+
+.partnership-button .button-arrow svg {
+    width: 12px;
+    height: 12px;
+}
+
+.partnership-button:hover .button-arrow {
+    transform: translateX(2px);
+}
+
+.technical-card {
+    width: 726px;
+    height: 247.515625px;
+    border-radius: 25px;
+    border: 1px solid #5D6C6326;
+    padding: 30px;
+    gap: 10px;
+    opacity: 1;
+    background: #FFFFFF;
+}
+
+.technical-date {
+    width: 152px;
+    height: 12px;
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #5D6C63;
+    opacity: 1;
+}
+
+.technical-title {
+    width: 458px;
+    height: 34px;
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #434343;
+    opacity: 1;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.technical-description {
+    width: 666px;
+    height: 49px;
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #434343;
+    opacity: 1;
+    margin-bottom: 16px;
+}
+
+.casestudy-card {
+    width: 726px;
+    height: 247.515625px;
+    border-radius: 25px;
+    border: 1px solid #5D6C6326;
+    padding: 30px;
+    gap: 10px;
+    opacity: 1;
+    background: #FFFFFF;
+}
+
+.casestudy-date {
+    width: 146px;
+    height: 12px;
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #5D6C63;
+    opacity: 1;
+}
+
+.casestudy-title {
+    width: 666px;
+    height: 14px;
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #434343;
+    opacity: 1;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.casestudy-description {
+    width: 666px;
+    height: 49px;
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #434343;
+    opacity: 1;
+    margin-bottom: 16px;
+}
+
+
+/* Interested in Local AI Section */
+.local-ai-section {
+    width: 1500px;
+    height: 344.515625px;
+    margin: 0 auto;
+    padding: 100px 143px;
+    background: linear-gradient(90deg, #536259 0%, #5D6C63 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 21px;
+}
+
+.local-ai-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.local-ai-content h2 {
+    width: 424px;
+    height: 30px;
+    margin: 0 auto;
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #F4F4F4;
+    opacity: 1;
+}
+
+.local-ai-content p {
+    width: 522px;
+    height: 38px;
+    margin: 0 auto;
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #F4F4F4;
+    opacity: 1;
+}
+
+.cta-button {
+    display: inline-flex;
+    align-items: center;
+    width: 166.515625px;
+    height: 34.515625px;
+    padding: 0;
+    margin-top: 20px;
+    border: 1px solid #FFFFFF;
+    border-radius: 125px;
+    background: #FFFFFF;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    opacity: 1;
+    overflow: hidden;
+}
+
+.cta-button .cta-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 146.96969604492188px;
+    height: 33.48508834838867px;
+    border-radius: 125px;
+    background: #59685f;
+    color: #F4F4F4;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 0 16px;
+}
+
+.cta-button .cta-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(166.515625px - 146.96969604492188px);
+    height: 34.515625px;
+    background: #FFFFFF;
+    flex-shrink: 0;
+    transition: transform 0.3s ease;
+}
+
+.cta-button .cta-arrow svg {
+    width: 12px;
+    height: 12px;
+}
+
+.cta-button:hover .cta-arrow {
+    transform: translateX(2px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 1500px) {
+    .hero-section,
+    .reality-section,
+    .capability-section,
+    .topology-section,
+    .whitepaper-section,
+    .market-section,
+    .partners-section,
+    .infrastructure-section,
+    .local-ai-section {
+        width: 100%;
+    }
+}
